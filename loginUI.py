@@ -32,8 +32,9 @@ class Ui_Form(object):
         self.widget.setObjectName("widget")
         self.label = QtWidgets.QLabel(parent=self.widget)
         self.label.setGeometry(QtCore.QRect(40, 29, 290, 421))
-        self.label.setStyleSheet("border-image: url(images/background.png);\n"
-"border-radius:20px;")
+        # enable below two commented lines to add background image
+#         self.label.setStyleSheet("border-image: url(images/background.png);\n"
+# "border-radius:20px;")
         self.label.setText("")
         self.label.setObjectName("label")
         self.label_2 = QtWidgets.QLabel(parent=self.widget)
